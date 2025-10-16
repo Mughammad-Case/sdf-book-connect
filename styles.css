@@ -32,3 +32,10 @@ body{
     transform: translateY(-5px); /* negative value to move up the y-axis and positive value to move down y-axis */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
+.book-card img {
+    width: 100%; /* Make the image take full width of the div */
+    height: 300px; /* Sets a fixed height */
+    object-fit: cover; /* Ensures the image fits the comntaiber while keeping aspect ratio */
+    border-bottom: 1px solid #ddd; /* Seperates image from rest of the card */
+}
